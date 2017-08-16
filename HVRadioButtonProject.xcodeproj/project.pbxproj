@@ -13,6 +13,7 @@
 		39674E781F44652900D35510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39674E761F44652900D35510 /* Main.storyboard */; };
 		39674E7A1F44652900D35510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39674E791F44652900D35510 /* Assets.xcassets */; };
 		39674E7D1F44652900D35510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39674E7B1F44652900D35510 /* LaunchScreen.storyboard */; };
+		39674E871F44655500D35510 /* BJHSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39674E861F44655500D35510 /* BJHSectionHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		39674E791F44652900D35510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39674E7C1F44652900D35510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39674E7E1F44652900D35510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39674E851F44655500D35510 /* BJHSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJHSectionHeaderView.h; sourceTree = "<group>"; };
+		39674E861F44655500D35510 /* BJHSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJHSectionHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		39674E6C1F44652900D35510 /* HVRadioButtonProject */ = {
 			isa = PBXGroup;
 			children = (
+				39674E841F44655500D35510 /* SectionUI */,
 				39674E701F44652900D35510 /* AppDelegate.h */,
 				39674E711F44652900D35510 /* AppDelegate.m */,
 				39674E731F44652900D35510 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				39674E6E1F44652900D35510 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39674E841F44655500D35510 /* SectionUI */ = {
+			isa = PBXGroup;
+			children = (
+				39674E851F44655500D35510 /* BJHSectionHeaderView.h */,
+				39674E861F44655500D35510 /* BJHSectionHeaderView.m */,
+			);
+			path = SectionUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 			files = (
 				39674E751F44652900D35510 /* ViewController.m in Sources */,
 				39674E721F44652900D35510 /* AppDelegate.m in Sources */,
+				39674E871F44655500D35510 /* BJHSectionHeaderView.m in Sources */,
 				39674E6F1F44652900D35510 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
